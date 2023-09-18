@@ -22,7 +22,7 @@ void Setup() {
     gameData.fruitY = rand() % gameData.height;
     gameData.score = 0;
 }
-
+//поле
 void Draw() {
     system("clear");
     for (int i = 0; i < gameData.width + 2; i++)
