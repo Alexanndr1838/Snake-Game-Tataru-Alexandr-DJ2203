@@ -12,8 +12,8 @@
 //дпнные
 struct GameData {
     bool GameOver;
-    const int width = 20;
-    const int height = 20;
+    const int width = 18;
+    const int height = 15;
     int x, y, fruitX, fruitY, score;
     enum eDirection { Stop = 0, Left, Right, Up, Down };
     eDirection dir;
