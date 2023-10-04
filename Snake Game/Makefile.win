@@ -1,0 +1,27 @@
+
+CC = g++
+CXXF = -std=c++14
+LDF = -lstdc++
+
+
+all : Exe
+Exe : GameData.o Engine.o Snake.o Map.o main.o
+        $(CC) apple.o engine.o snake.o map.o main.o -o Exe $(LDF)
+
+GameData.o: GameData.cpp
+        $(CC) -c GameData.cpp $(CXXF)
+
+Engine.o: Engine.cpp
+        $(CC) -c Engine.cpp $(CXXF)
+
+Snake.o: Snake.cpp
+        $(CC) -c Snake.cpp $(CXXF)
+
+Map.o: Map.cpp
+        $(CC) -c Map.cpp $(CXXF)
+
+main.o: main.cpp
+        $(CC) -c main.cpp $(CXXF)
+
+clean:
+        rm -rf *o  Engine.o Snake.o Map.o main.o Exe

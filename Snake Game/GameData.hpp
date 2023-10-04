@@ -9,8 +9,10 @@
 #define GameData_hpp
 
 #include <stdio.h>
-//дпнные
+
 struct GameData {
+    
+
     bool GameOver;
     const int width = 18;
     const int height = 15;

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3C643EA02AB8666900DE33EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C643E9F2AB8666900DE33EE /* main.cpp */; };
+		3CCB4AD42ACD8E6D0065748B /* Gamedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB4AD32ACD8E6D0065748B /* Gamedata.cpp */; };
+		3CCB4AD62ACD8EF80065748B /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB4AD52ACD8EF80065748B /* Engine.cpp */; };
+		3CCB4AD82ACD8F310065748B /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB4AD72ACD8F310065748B /* Map.cpp */; };
+		3CCB4ADA2ACD8F9E0065748B /* Snake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB4AD92ACD8F9E0065748B /* Snake.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +30,14 @@
 		3C643E9C2AB8666900DE33EE /* Snake Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snake Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C643E9F2AB8666900DE33EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3C643EA72AB8669000DE33EE /* GameData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameData.hpp; sourceTree = "<group>"; };
+		3CCB4ABF2ACD7FDE0065748B /* Engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Engine.hpp; sourceTree = "<group>"; };
+		3CCB4AC22ACD805A0065748B /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		3CCB4AC52ACD806A0065748B /* Snake.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Snake.hpp; sourceTree = "<group>"; };
+		3CCB4AC92ACD8CC40065748B /* Makefile.win */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.win; sourceTree = "<group>"; };
+		3CCB4AD32ACD8E6D0065748B /* Gamedata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gamedata.cpp; sourceTree = "<group>"; };
+		3CCB4AD52ACD8EF80065748B /* Engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		3CCB4AD72ACD8F310065748B /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		3CCB4AD92ACD8F9E0065748B /* Snake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Snake.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				3C643E9F2AB8666900DE33EE /* main.cpp */,
 				3C643EA72AB8669000DE33EE /* GameData.hpp */,
+				3CCB4AD32ACD8E6D0065748B /* Gamedata.cpp */,
+				3CCB4ABF2ACD7FDE0065748B /* Engine.hpp */,
+				3CCB4AD52ACD8EF80065748B /* Engine.cpp */,
+				3CCB4AC22ACD805A0065748B /* Map.hpp */,
+				3CCB4AD72ACD8F310065748B /* Map.cpp */,
+				3CCB4AC52ACD806A0065748B /* Snake.hpp */,
+				3CCB4AD92ACD8F9E0065748B /* Snake.cpp */,
+				3CCB4AC92ACD8CC40065748B /* Makefile.win */,
 			);
 			path = "Snake Game";
 			sourceTree = "<group>";
@@ -121,7 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCB4ADA2ACD8F9E0065748B /* Snake.cpp in Sources */,
 				3C643EA02AB8666900DE33EE /* main.cpp in Sources */,
+				3CCB4AD62ACD8EF80065748B /* Engine.cpp in Sources */,
+				3CCB4AD82ACD8F310065748B /* Map.cpp in Sources */,
+				3CCB4AD42ACD8E6D0065748B /* Gamedata.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
