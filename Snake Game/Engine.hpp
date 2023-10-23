@@ -13,6 +13,16 @@
 
 class Engine {
 public:
+    
+    GameData& gameData;
+
+    Engine(GameData& gd) : gameData(gd) {} 
+
+    Engine(int initialX, int initialY, GameData& gd) : gameData(gd) {
+        gameData.x = initialX;
+        gameData.y = initialY;
+    }
+    
     void Logic(GameData &gameData) {
         switch (gameData.dir) {
             case GameData::Left:

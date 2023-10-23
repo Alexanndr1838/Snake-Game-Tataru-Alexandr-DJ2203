@@ -14,6 +14,16 @@
 
 class Snake {
 public:
+   
+    GameData& gameData;
+
+     Snake(GameData& gd) : gameData(gd) {}
+
+     bool operator==(const Snake &other) const {
+         return (gameData.GameOver == other.gameData.GameOver);
+     }
+
+    
     void Input(GameData &gameData) { 
         char input;
         std::cin >> input;

@@ -18,8 +18,8 @@ using namespace std;
 
 GameData gameData; // Создайте экземпляр структуры GameData или обьект как в С#
 Map map;
-Snake snake;
-Engine engine;
+Snake snake(gameData);
+Engine engine(gameData);
 
 void Setup() {
     gameData.GameOver = false;
