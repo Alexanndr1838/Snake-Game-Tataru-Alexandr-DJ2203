@@ -9,11 +9,16 @@
 #define GameData_hpp
 
 #include <stdio.h>
+#include <vector>
+#include <algorithm>
 
 struct GameData {
     bool GameOver;
     const int width = 18;
     const int height = 15;
+    std::vector<int> tailX;
+    std::vector<int> tailY;
+    int numtail;
     int x, y, fruitX, fruitY, score;
     enum eDirection { Stop = 0, Left, Right, Up, Down };
     eDirection dir;
