@@ -1,9 +1,11 @@
-//
-//  Engine.hpp
-//  Snake Game
-//
-//  Created by Саша Татару on 04.10.2023.
-//
+/**
+ * @file Engine.hpp
+ * @brief Заголовочный файл для класса Engine
+ *
+ *@project Snake Game
+ * @author Александр Татару
+ * @year 04.10.2023.
+ */
 
 #ifndef Engine_hpp
 #define Engine_hpp
@@ -13,17 +15,41 @@
 #include <cstdlib>
 #include <time.h>
 
+/**
+ * @class Engine
+ * @brief Класс, отвечающий за логику движения змейки и взаимодействие с игровыми данными.
+ */
+
 class Engine {
 public:
-    
+        
     GameData& gameData;
 
+/**
+ * @brief Конструктор класса Engine.
+ *
+ * @param gd Ссылка на объект GameData.
+ */
+    
     Engine(GameData& gd) : gameData(gd) {}
 
+ /**
+  * @brief Конструктор класса Engine с начальными координатами.
+  *
+  * @param initialX Начальная координата по оси X.
+  * @param initialY Начальная координата по оси Y.
+  * @param gd Ссылка на объект GameData.
+  */
+    
     Engine(int initialX, int initialY, GameData& gd) : gameData(gd) {
         gameData.x = initialX;
         gameData.y = initialY;
     }
+    /**
+     * @brief Выполняет логику движения змейки и взаимодействия с игровыми данными.
+     *
+     * @param gameData Ссылка на объект GameData.
+     */
     
     void Logic(GameData &gameData) {
         int prevX = gameData.tailX.empty() ? 0 : gameData.tailX[0];

@@ -1,10 +1,11 @@
-//
-//  Map.hpp
-//  Snake Game
-//
-//  Created by Саша Татару on 04.10.2023.
-//
-
+/**
+ * @file Map.hpp
+ * @brief Заголовочный файл для класса Map
+ * 
+ *@project Snake Game
+ * @author Александр Татару
+ * @year 04.10.2023.
+ */
 #ifndef Map_hpp
 #define Map_hpp
 
@@ -13,7 +14,19 @@
 #include <iostream>
 #include <string>
 
+/**
+ * @class Map
+ * @brief Класс, отвечающий за отрисовку игрового поля и элементов на нем.
+ */
+
 class Map {
+    
+/**
+ * @brief Рисует игровое поле и элементы на нем.
+ *
+ * @param gameData Ссылка на объект GameData.
+ */
+    
 public: void Draw(GameData &gameData) {
     system("clear");
 
