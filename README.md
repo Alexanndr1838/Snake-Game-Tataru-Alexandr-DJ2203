@@ -23,3 +23,8 @@
 1. Откройте проект в Xcode.
 2. Настройте сборку и цели проекта, если это необходимо.
 3. Выберите цель сборки (Build Target) и нажмите "Build" или "Run".
+
+
+## Doxygen 
+
+Ссылка  file:///Users/sasatataru/C++/Snake%20Game/Snake%20Game/html/annotated.html
