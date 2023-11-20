@@ -69,7 +69,7 @@ public:
                 gameData.GameOver = true;
                 break;
         }
-    }
+    } 
 };
-
+   
 #endif /* Snake_hpp */

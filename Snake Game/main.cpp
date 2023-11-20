@@ -28,8 +28,8 @@ Engine engine(gameData);
 /**
  * @brief Устанавливает начальные значения игры.
  */
-
-void Setup() {
+ 
+void Setup() { 
       gameData.GameOver = false;
       gameData.dir = gameData.Stop;
       gameData.x = gameData.width / 2 - 1;
@@ -41,7 +41,7 @@ void Setup() {
       gameData.tailX.resize(100, 0);
       gameData.tailY.resize(100, 0);
    }
-
+ 
 /**
  * @brief Точка входа в программу. Запускает игру.
  *

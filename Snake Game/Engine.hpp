@@ -113,7 +113,7 @@ public:
             }
         }
         
-        
+         
         if (gameData.x == gameData.fruitX && gameData.y == gameData.fruitY) {
             gameData.score += 100;
             gameData.fruitX = rand() % gameData.width;
@@ -125,7 +125,7 @@ public:
             gameData.numtail++;
             }
         }
-    }
+    } 
 };
 
 #endif /* Engine_hpp */

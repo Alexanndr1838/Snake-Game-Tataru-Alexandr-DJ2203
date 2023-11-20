@@ -35,7 +35,7 @@ struct GameData {
     
     GameData() : GameOver(false), width(18), height(15), x(0), y(0), fruitX(0), fruitY(0), score(0), dir(Stop) {}
     
-/**
+/** 
  * @brief Конструктор копирования для структуры GameData.
  */
     
@@ -46,7 +46,7 @@ struct GameData {
  /**
   * @brief Оператор присваивания для структуры GameData.
   */
-    
+     
     GameData& operator=(const GameData &other) {
         if (this != &other) {
             GameOver = other.GameOver;

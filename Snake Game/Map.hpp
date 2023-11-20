@@ -52,7 +52,7 @@ for (int i = 0; i < gameData.height; i++){
                 print = true;
         }
             }
-        if (!print)
+        if (!print)  
             std::cout << " ";
                 }
 
