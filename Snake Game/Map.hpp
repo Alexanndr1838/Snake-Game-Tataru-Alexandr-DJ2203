@@ -44,6 +44,7 @@ for (int i = 0; i < gameData.height; i++){
             std::cout << "&";
             
         else
+            
         {
         bool print = false;
     for (int k = 0; k < gameData.numtail; k++){

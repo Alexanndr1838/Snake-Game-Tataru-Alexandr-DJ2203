@@ -9,6 +9,7 @@
 #ifndef GameData_hpp
 #define GameData_hpp
 
+
 #include <stdio.h>
 #include <vector>
 #include <algorithm>

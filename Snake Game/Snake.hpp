@@ -39,6 +39,7 @@ public:
    */
     
      bool operator==(const Snake &other) const {
+         
          return (gameData.GameOver == other.gameData.GameOver);
      }
 

@@ -42,6 +42,7 @@ void Setup() {
       gameData.tailY.resize(100, 0);
    }
  
+
 /**
  * @brief Точка входа в программу. Запускает игру.
  *

@@ -105,6 +105,7 @@ public:
             gameData.GameOver = true;
         }
         
+        
         for (int i = 0; i < gameData.numtail; i++) {
             if (i < gameData.tailX.size() && i < gameData.tailY.size()) {
                 if (gameData.tailX[i] == gameData.x && gameData.tailY[i] == gameData.y) {
